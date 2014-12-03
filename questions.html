@@ -1,0 +1,88 @@
+<!DOCTYPE hmtl>
+<html>
+  <head>
+    <title>The Informed Voter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div align="left" id="headingdiv">
+      <h1>The Informed Voter</h1>
+    </div>
+
+    <div id="body">
+      <div id="inforow">
+        <span class="infoholder">
+          <span class="infolabel">State:</span>
+          <span class="infocontent">NY</span>
+        </span>
+        <span class="infoholder">
+          <span class="infolabel">District:</span>
+          <span class="infocontent">12</span>
+        </span>
+        <span class="infoholder">
+          <span class="infolabel">Zip Code:</span>
+          <span class="infocontent">10044</span>
+        </span>
+      </div>
+
+      <nav class="left-nav">
+        <ul>
+          <li><a href="#">Abortion</a></li>
+          <li><a href="#">Budget</a></li>
+          <li><a href="#">Economy</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Energy</a></li>
+          <li><a href="#">Environment</a></li>
+          <li><a href="#">Gun Control</a></li>
+          <li class="selected"><a href="#">Health Care</a></li>
+          <li><a href="#">Immigration</a></li>
+          <li><a href="#">Marriage</a></li>
+          <li><a href="#">National Security</a></li>
+          <li><a href="#">Social Security</a></li>
+        </ul>
+      </nav>
+
+      <section id="main">
+        <p class="question">
+          Do you support universal health care?
+        </p>
+
+        <p class="answer">
+          <input type="radio" name="issue" value="yes" />Yes<br />
+          <input type="radio" name="issue" value="no" />No
+        </p>
+
+        <p class="spacer" />
+        
+        <p class="question">
+          How important is this issue to you?
+        </p>
+
+        <p class="answer">
+          Not Important
+          &nbsp;&nbsp;
+          <input type="radio" name="importance" value="0" />
+          &nbsp;&nbsp;
+          <input type="radio" name="importance" value="1" />
+          &nbsp;&nbsp;
+          <input type="radio" name="importance" value="2" />
+          &nbsp;&nbsp;
+          <input type="radio" name="importance" value="3" />
+          &nbsp;&nbsp;
+          <input type="radio" name="importance" value="4" />
+          &nbsp;&nbsp;
+          Very Important
+        </p>
+
+        <nav class="bottom-nav">
+          <ul>
+            <a href="#"><li>More Questions</li></a>
+            <a href="#"><li>Next Section: Immigration</li></a>
+            <a href="#"><li>Show Results</li></a>
+          </ul>
+        </nav>
+      </section>      
+    </div>
+  </body>
+</html>

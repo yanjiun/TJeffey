@@ -14,13 +14,32 @@
    margin-right: auto;
    width: 70%;
    display: table;
-   height: 300px;
+   height: 500px;
 }
 
 #innerdiv {
     display: table-cell;
     vertical-align: middle;
 }
+
+#candidateDiv {
+    float: left;
+    border: 2px solid #cccccc;
+    text-align: right;
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+}
+
+.img {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+};
 
 /*below is a button copied from a button generator*/
 .myButton {

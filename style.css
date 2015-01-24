@@ -82,3 +82,96 @@
     position:relative;
     top:1px;
 }
+
+#inforow {
+    border-bottom: thin solid #000000;
+    padding: 3px 0px 3px 0px;
+}
+
+.infoholder {
+    display: inline-block;
+    width: 200px;
+}
+
+.infolabel {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.infocontent {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    background-color: #AACCCC;
+}
+
+nav.left-nav {
+    width: 200px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    border-right: thin solid #000000;
+}
+
+nav.left-nav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+nav.left-nav ul li {
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 5px;
+}
+
+nav.left-nav .selected {
+    background-color: #AACCCC;
+}
+
+section#main {
+    float: left;
+    padding: 21px;
+    width: 1000px;
+}
+
+section#main p {
+    margin: 0px;
+}
+
+section#main .question {
+    font-size: 200%;
+}
+
+section#main .answer {
+    padding: 20px;
+    font-size: 125%;
+    line-height: 1.8;
+}
+
+section#main .spacer {
+    padding: 20px;
+}
+
+nav.bottom-nav {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+nav.bottom-nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav.bottom-nav ul a {
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+
+nav.bottom-nav ul a li:hover {
+    background-color: #CCCCAA;
+}
+
+nav.bottom-nav ul a li {
+    padding: 10px;
+    display: inline;
+    background-color: #AACCCC;
+}

@@ -1,0 +1,15 @@
+Google civic Api (only people info + maps? Not much else yet)
+https://developers.google.com/civic-information/
+
+This looks much better. Yay nytimes
+http://developer.nytimes.com/docs/congress_api
+
+Prototype:
+Target: one state senate election 2014/presidential.
+Components:
+Admin tool for entering political leanings when voting records are not available or we don’t have data analysis. (Possible future extension, crowdsourcing).
+Webpage (and or mobile version of webpage).
+Server (in node.js)
+Database (mongodb? or other?)
+
+User flow:

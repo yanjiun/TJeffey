@@ -4,6 +4,10 @@ https://developers.google.com/civic-information/
 This looks much better. Yay nytimes
 http://developer.nytimes.com/docs/congress_api
 
+Node Tutorials:
+http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
+http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
+
 Prototype:
 Target: one state senate election 2014/presidential.
 Components:

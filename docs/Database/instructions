@@ -1,0 +1,6 @@
+#To spin up db#
+mongod --dbpath <db directory>
+#note if db directory doesn't exist, make it first
+
+#To ingest test data run#
+mongo localhost:27017/local ingestTest.js

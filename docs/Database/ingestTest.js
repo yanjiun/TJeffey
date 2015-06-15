@@ -2,6 +2,9 @@
 // think about how to enforce uniqueness for candidates such that we never
 // create duplicate records
 
+conn = new Mongo();
+db = conn.getDB("local");
+
 var candidate1 = {
     bioInfo: {
         firstName: "Carolyn",

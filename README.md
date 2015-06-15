@@ -7,7 +7,7 @@
 
 ## Installation
 
-    cd t-jeffey
+    cd t-jeffey    
     npm install
     npm start
 
